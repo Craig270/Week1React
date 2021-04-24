@@ -1,14 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import "../node_modules/bootstrap/dist/css/bootstrap.css";
+import moag from "../src/moag.jpg";
+import Pic from "./components/pic";
+import "./index.css";
+import App from "./App";
+import Form from "./components/form";
+import NavBar from "./components/nav-bar";
+import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <div className="container">
+    <NavBar />
+    <Pic />
+    <Form />
+  </div>,
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
