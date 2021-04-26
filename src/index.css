@@ -19,6 +19,7 @@ code {
 #loginpg {
   border-style: solid;
   margin: 80px 100px 50px 80px;
+  max-width: 500px;
 }
 
 #info {
